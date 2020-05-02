@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52611" started-at="2020-04-03T16:25:10Z" finished-at="2020-04-03T16:26:03Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29207" started-at="2020-04-03T16:25:10Z" finished-at="2020-04-03T16:25:40Z">
+      <class name="SalsonAcademy.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SalsonAcademy.HomePage@59662a0b]" name="initialize" is-config="true" duration-ms="6421" started-at="2020-04-03T12:25:10Z" finished-at="2020-04-03T12:25:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SalsonAcademy.HomePage@59662a0b]" name="basePageNavigation" duration-ms="16373" started-at="2020-04-03T12:25:17Z" data-provider="getData" finished-at="2020-04-03T12:25:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:SalsonAcademy.HomePage@59662a0b]" name="basePageNavigation" duration-ms="6272" started-at="2020-04-03T12:25:33Z" data-provider="getData" finished-at="2020-04-03T12:25:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hi@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nonrestricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SalsonAcademy.HomePage@59662a0b]" name="teardown" is-config="true" duration-ms="128" started-at="2020-04-03T12:25:40Z" finished-at="2020-04-03T12:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SalsonAcademy.HomePage -->
+    </test> <!-- Test -->
+    <test name="Validating content in the Page" duration-ms="11734" started-at="2020-04-03T16:25:40Z" finished-at="2020-04-03T16:25:51Z">
+      <class name="SalsonAcademy.contentValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SalsonAcademy.contentValidation@31304f14]" name="initialize" is-config="true" duration-ms="11392" started-at="2020-04-03T12:25:40Z" finished-at="2020-04-03T12:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="contentValidation1Navigation()[pri:0, instance:SalsonAcademy.contentValidation@31304f14]" name="contentValidation1Navigation" duration-ms="83" started-at="2020-04-03T12:25:51Z" finished-at="2020-04-03T12:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentValidation1Navigation -->
+        <test-method status="PASS" signature="contentValidationNavigation()[pri:0, instance:SalsonAcademy.contentValidation@31304f14]" name="contentValidationNavigation" duration-ms="79" started-at="2020-04-03T12:25:51Z" finished-at="2020-04-03T12:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contentValidationNavigation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SalsonAcademy.contentValidation@31304f14]" name="teardown" is-config="true" duration-ms="179" started-at="2020-04-03T12:25:51Z" finished-at="2020-04-03T12:25:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SalsonAcademy.contentValidation -->
+    </test> <!-- Validating content in the Page -->
+    <test name="App Testing" duration-ms="0" started-at="2020-04-03T16:25:51Z" finished-at="2020-04-03T16:25:51Z">
+    </test> <!-- App Testing -->
+    <test name="Validating navigation Bar" duration-ms="11623" started-at="2020-04-03T16:25:51Z" finished-at="2020-04-03T16:26:03Z">
+      <class name="SalsonAcademy.navbarValidation">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:SalsonAcademy.navbarValidation@443118b0]" name="initialize" is-config="true" duration-ms="11241" started-at="2020-04-03T12:25:51Z" finished-at="2020-04-03T12:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="navigationbarValidation()[pri:0, instance:SalsonAcademy.navbarValidation@443118b0]" name="navigationbarValidation" duration-ms="186" started-at="2020-04-03T12:26:03Z" finished-at="2020-04-03T12:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigationbarValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SalsonAcademy.navbarValidation@443118b0]" name="teardown" is-config="true" duration-ms="194" started-at="2020-04-03T12:26:03Z" finished-at="2020-04-03T12:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SalsonAcademy.navbarValidation -->
+    </test> <!-- Validating navigation Bar -->
+  </suite> <!-- Suite -->
+</testng-results>

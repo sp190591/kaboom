@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="SalsonAcademy.listeners"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="SalsonAcademy.navbarValidation">
+        <methods>
+          <include name="initialize"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SalsonAcademy.navbarValidation -->
+      <class name="SalsonAcademy.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- SalsonAcademy.HomePage -->
+      <class name="SalsonAcademy.contentValidation">
+        <methods>
+          <include name="initialize"/>
+          <include name="basePageNavigation"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- SalsonAcademy.contentValidation -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
